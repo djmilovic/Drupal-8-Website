@@ -1,0 +1,22 @@
+uuid: b37eba85-3d88-4752-a15a-581e052d4d10
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.experience
+  module:
+    - text
+id: node.experience.body
+field_name: body
+entity_type: node
+bundle: experience
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

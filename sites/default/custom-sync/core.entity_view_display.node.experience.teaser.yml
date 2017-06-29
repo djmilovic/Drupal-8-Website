@@ -1,0 +1,28 @@
+uuid: ceded495-ae93-4890-aff3-fccdaca6b490
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.experience.body
+    - node.type.experience
+  module:
+    - text
+    - user
+id: node.experience.teaser
+targetEntityType: node
+bundle: experience
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

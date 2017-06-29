@@ -1,0 +1,25 @@
+uuid: c2d0ab00-c27b-4b58-9bea-b330d57e86f5
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:931e8022-fee5-4150-b771-90af37069c59'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: frontpagesplashimage
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:931e8022-fee5-4150-b771-90af37069c59'
+settings:
+  id: 'block_content:931e8022-fee5-4150-b771-90af37069c59'
+  label: 'Frontpage splash image'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

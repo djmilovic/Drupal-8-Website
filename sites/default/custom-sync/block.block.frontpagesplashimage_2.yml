@@ -1,0 +1,25 @@
+uuid: cc0fb568-b9f1-43c4-a88e-7c77b25e11a2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:931e8022-fee5-4150-b771-90af37069c59'
+  module:
+    - block_content
+  theme:
+    - drupal8_zymphonies_theme
+id: frontpagesplashimage_2
+theme: drupal8_zymphonies_theme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: 'block_content:931e8022-fee5-4150-b771-90af37069c59'
+settings:
+  id: 'block_content:931e8022-fee5-4150-b771-90af37069c59'
+  label: 'Frontpage splash image'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

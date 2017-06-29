@@ -1,0 +1,21 @@
+uuid: 1158d7fd-832f-4dbf-8263-22e9cafcdbf9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_
+    - node.type.experience
+  module:
+    - text
+id: node.experience.field_date_
+field_name: field_date_
+entity_type: node
+bundle: experience
+label: 'Date:'
+description: '<b>Date: </b>'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

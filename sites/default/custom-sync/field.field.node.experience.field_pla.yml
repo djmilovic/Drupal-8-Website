@@ -1,0 +1,19 @@
+uuid: 7699965e-4cfe-4993-9bec-5edac9c8ea75
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pla
+    - node.type.experience
+id: node.experience.field_pla
+field_name: field_pla
+entity_type: node
+bundle: experience
+label: 'Place:'
+description: 'Where did it happed'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
